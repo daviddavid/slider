@@ -26,3 +26,4 @@ build
 es
 /coverage
 yarn.lock
+src
