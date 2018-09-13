@@ -25,15 +25,15 @@
     "dist"
   ],
   "license": "MIT",
-  "main": "./lib/index.js",
+  "main": "./dist/index.js",
   "module": "./es/index",
-  "style": "./assets/index.css",
+  "style": "./dist/index.css",
   "config": {
     "port": 8005,
     "entry": {
       "rc-slider": [
-        "./assets/index.less",
-        "./src/index.js"
+        "./dist/index.css",
+        "./dist/index.js"
       ]
     }
   },
